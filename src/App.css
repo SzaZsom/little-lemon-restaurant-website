@@ -1,0 +1,25 @@
+* {
+    font-family: "Karla" "Markazi Text" serif;
+}
+
+.navigation-menu {
+    color: #000000;
+    font-family: "Karla";
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 18rem;
+}
+
+.navigation-menu > .navigation-image > img {
+    height: 3rem;
+    margin-left: -1.5rem;
+}
+
+.navigation-list:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

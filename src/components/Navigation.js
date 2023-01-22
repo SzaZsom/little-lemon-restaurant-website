@@ -3,14 +3,14 @@ import React from 'react'
 function Navigation() {
   return (
     <nav>
-        <menu>
-            { /* <li><img><a href=""></a></img></li> */ }
-            <li>Home</li>
-            <li>About</li>
-            <li>Menu</li>
-            <li>Reservations</li>
-            <li>Order Online</li>
-            <li>Login</li>
+        <menu className='navigation-menu'>
+            <li className='navigation-image'><img src={require("../assets/nav-logo.png")} alt="Little Lemon Logo"></img></li>
+            <li className='navigation-list'>Home</li>
+            <li className='navigation-list'>About</li>
+            <li className='navigation-list'>Menu</li>
+            <li className='navigation-list'>Reservations</li>
+            <li className='navigation-list'>Order Online</li>
+            <li className='navigation-list'>Login</li>
         </menu>
       </nav>
   )
