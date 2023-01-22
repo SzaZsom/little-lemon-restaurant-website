@@ -1,52 +1,21 @@
-import './App.css';
+import Navigation from './components/Navigation';
+import Heading from './components/Heading';
+import Specials from './components/Specials';
+import Testimonials from './components/Testimonials';
+import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <nav>
-        {
-          /*
-            Everything that should be in navbar component
-            <menu>
-              <li><img><a href=""></a></img></li>
-              <li>Home</li>
-              <li>About</li>
-              <li>Menu</li>
-              <li>Reservations</li>
-              <li>Order Online</li>
-              <li>Login</li>
-            </menu>
-          */
-        }
-      </nav>
-      <header>
-        <article>
-          {/*Put the *order online* component here*/}
-        </article>
-      </header>
+      <Navigation />
+      <Heading />
       <main>
-        <section>
-          {
-            // "Specials" Component
-          }
-        </section>
-        <section>
-          {
-            // "Testimonials" Component
-          }
-        </section>
-        <section>
-          {
-            // "About us" Component
-          }
-        </section>
+        <Specials />
+        <Testimonials />
+        <About />
       </main>
-      <footer>
-          {
-            // "image" "Navigation" "Contact" "Connect" components
-            // done perhaps through flexbox, or ul + li lists
-          }
-      </footer>
+      <Footer />
     </>
   );
 }
