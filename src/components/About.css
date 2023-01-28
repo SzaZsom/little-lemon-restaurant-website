@@ -1,0 +1,68 @@
+.about_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about_text {
+    max-width: 25rem;
+}
+
+.about_text > h1 {
+    font-family: "Markazi Text" serif;
+    font-size: 4rem;
+    color: black;
+    font-weight: bold;
+}
+
+.about_text > h2 {
+    color: black;
+    font-size: 2.5rem;
+    font-family: "Markazi Text";
+    font-weight: normal;
+}
+
+.about_text > p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Markazi Text";
+
+    min-width: 25rem;
+
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.about_image {
+    object-fit: cover;
+
+    max-width: 30rem;
+}
+
+.about_image > img{
+    object-fit: cover;
+
+    max-width: 100%;
+
+    display: block;
+
+    border-radius: 1rem;
+
+    filter: drop-shadow(16px 16px 20px black);
+}
+
+.upper {
+    position: relative;
+
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.under {
+    position: relative;
+
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}

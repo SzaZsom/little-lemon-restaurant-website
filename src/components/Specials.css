@@ -1,0 +1,92 @@
+.specials {
+    font-family: "Markazi Text";
+
+    padding-top: 4rem;
+}
+
+.specials_heading {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.specials_title {
+    font-size: 4rem;
+
+    color: var()
+}
+
+.specials_cta {
+    background-color: var(--primary-yellow);
+    color: black;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: "Karla";
+
+    border: none;
+    border-radius: 16px;
+    padding: 1rem 3rem;
+
+    transition: 0.3s ease-in-out;
+}
+
+.specials_cta:hover {
+    color: var(--primary-yellow);
+    background-color: black;
+    cursor: pointer;
+
+    transition: var(--transition-time);
+}
+
+.specials_content {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+
+    padding: 3rem 0;
+
+    gap: 1rem;
+
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 0 24px;
+}
+
+.specials_content::-webkit-scrollbar {
+    display: none;
+}
+
+.specials_card {
+    scroll-snap-align: start;
+
+    max-width: 16.25rem;
+    min-width: 16.25rem;
+
+    background-color: var(--secondary-light);
+
+    border-radius: 1rem 1rem 0 0;
+
+    overflow: hidden;
+
+    transition: var(--transition-time);
+}
+
+.specials_card > img {
+    object-fit: cover;
+
+    max-width: 16.25rem;
+}
+
+.card_container {
+    padding: 1rem;
+}
+
+.card_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_title .price {
+    color: var(--secondary-orange)
+}

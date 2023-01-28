@@ -1,0 +1,23 @@
+.navigation-menu {
+    color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    font-family: "Karla";
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.navigation-menu > .navigation-image > img {
+    height: 3rem;
+}
+
+.navigation-list:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

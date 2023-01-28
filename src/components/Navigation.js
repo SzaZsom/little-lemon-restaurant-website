@@ -1,9 +1,10 @@
 import React from 'react'
+import './Navigation.css'
 
 function Navigation() {
   return (
-    <nav>
-        <menu className='navigation-menu'>
+    <nav className='navigation'>
+        <menu className='navigation-menu container'>
             <li className='navigation-image'><img src={require("../assets/nav-logo.png")} alt="Little Lemon Logo"></img></li>
             <li className='navigation-list'>Home</li>
             <li className='navigation-list'>About</li>
