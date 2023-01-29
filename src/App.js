@@ -1,21 +1,13 @@
-import Navigation from './components/Navigation';
-import Heading from './components/Heading';
-import Specials from './components/Specials';
-import Testimonials from './components/Testimonials';
-import About from './components/About';
-import Footer from './components/Footer';
 import "./App.css"
+import Footer from "./components/Footer";
+import Nav from "./components/Nav";
+import Routing from "./components/Routing";
 
 function App() {
   return (
     <>
-      <Navigation />
-      <Heading />
-      <main>
-        <Specials />
-        <Testimonials />
-        <About />
-      </main>
+      <Nav />
+      <Routing />
       <Footer />
     </>
   );

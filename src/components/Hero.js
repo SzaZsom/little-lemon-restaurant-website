@@ -1,7 +1,7 @@
 import React from 'react';
-import "./Heading.css";
+import "./Hero.css";
 
-function Heading() {
+function Hero() {
   return (
     <header className='heading'>
       <section className='container heading_container'>
@@ -19,4 +19,4 @@ function Heading() {
   )
 }
 
-export default Heading
+export default Hero
