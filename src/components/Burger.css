@@ -1,0 +1,25 @@
+.burger {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 2
+}
+
+.burger_line {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: var(--primary-green);
+    border-radius: 10px;
+
+    transition: all 0.3s;
+}
+
+@media (min-width: 890px) {
+    .burger {
+        display: none;
+    }
+}

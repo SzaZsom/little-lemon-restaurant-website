@@ -1,0 +1,43 @@
+.rightNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    list-style: none;
+}
+
+.link {
+    color: black;
+
+    font-family: "Karla";
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 890px) {
+    .rightNav {
+        background-color: var(--secondary-light);
+
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        position: fixed;
+        top: 0;
+        right: 0;
+
+        height: 100vh;
+        width: 80%;
+        max-width: 300px;
+
+        padding-top: 3.5rem;
+    }
+}
