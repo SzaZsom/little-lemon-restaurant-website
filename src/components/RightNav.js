@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./RightNav.css"
 
 const RightNav = ({ open }) => {
@@ -8,12 +9,12 @@ const RightNav = ({ open }) => {
             transform: open ? 'translateX(0)' : 'translateX(100%)',
             transition: 'transform 0.3s ease-in-out',
         }}>
-        <li><a className='link' href="/">About</a></li>
-        <li><a className='link' href="/about">About</a></li>
-        <li><a className='link' href="/menu">Menu</a></li>
-        <li><a className='link' href="/booking">Reservations</a></li>
-        <li><a className='link' href="/order">Order Online</a></li>
-        <li><a className='link' href="/login">Login</a></li>
+        <Link className='link'  to="/">Home</Link>
+        <Link className='link'  to="/about">About</Link>
+        <Link className='link'  to="/menu">Menu</Link>
+        <Link className='link'  to="/booking">Reservations</Link>
+        <Link className='link'  to="/order">Order Online</Link>
+        <Link className='link' to="/login">Login</Link>
     </ul>
   )
 }

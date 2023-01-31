@@ -2,14 +2,18 @@ import React from 'react'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import HomePage from "./pages/HomePage"
 import BookingPage from "./pages/BookingPage"
+import Nav from './Nav'
+import Footer from './Footer'
 
 function Routing() {
   return (
     <Router>
+        <Nav />
         <Routes>
             <Route path="/" element={<HomePage />}></Route>
             <Route path="/booking" element={<BookingPage />}></Route>
         </Routes>
+        <Footer />
     </Router>
   )
 }

@@ -58,7 +58,7 @@
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(43, 43, 43, 0.6)), url("../assets/Mario and Adrian b.jpg");
         background-size: cover;
         background-position: center;
-        
+
     }
 
     .about_text, .about_text > h1, .about_text > h2 {
