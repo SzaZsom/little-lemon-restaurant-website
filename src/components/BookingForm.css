@@ -1,0 +1,16 @@
+.bookingForm {
+    display: flex;
+    justify-content: center;
+    font-family: "Karla";
+}
+
+.input--reservation {
+    border-radius: 1rem;
+    border: 2px solid var(--primary-green);
+    padding: 0.5rem;
+}
+
+.bookingForm label {
+    font-weight: 700;
+    font-size: 1rem;
+}
