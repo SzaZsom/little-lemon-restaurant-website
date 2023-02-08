@@ -1,9 +1,9 @@
 import React from 'react'
 import BookingForm from '../BookingForm'
 
-function BookingPage({availableTimes, setAvailableTimes}) {
+function BookingPage({availableTimes, dispatch}) {
   return (
-    <BookingForm availableTimes={availableTimes} setAvailableTimes={setAvailableTimes}/>
+    <BookingForm availableTimes={availableTimes} updateTimes={dispatch}/>
   )
 }
 
