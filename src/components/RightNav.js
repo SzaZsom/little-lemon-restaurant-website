@@ -5,10 +5,11 @@ import "./RightNav.css"
 const RightNav = ({ open }) => {
 
   return (
-    <ul open={open} className='rightNav' style={{
-            transform: open ? 'translateX(0)' : 'translateX(100%)',
-            transition: 'transform 0.3s ease-in-out',
-        }}>
+    // <ul open={open} className='rightNav' style={{
+    //         transform: open ? 'translateX(0)' : 'translateX(100%)',
+    //         transition: 'transform 0.3s ease-in-out',
+    //     }}>
+    <ul className='rightNav'>
         <Link className='link'  to="/">Home</Link>
         <Link className='link'  to="/about">About</Link>
         <Link className='link'  to="/menu">Menu</Link>

@@ -31,7 +31,7 @@ useEffect(() => {
 
   return (
     <>
-        <div className='burger' open={open} onClick={() => setOpen(!open)}>
+        {/* <div className='burger' open={open} onClick={() => setOpen(!open)}>
             <div style={{
             backgroundColor: open ? 'var(--primary-yellow)' : '',
             transform: open ? 'rotate(45deg)' : 'rotate(0deg)',
@@ -47,10 +47,9 @@ useEffect(() => {
             transform: open ? 'rotate(-45deg)' : 'rotate(0deg)',
             transformOrigin: '1px',
             }} className='burger_line'/>
-        </div>
-        {open && window.innerWidth < 890 && (
-        <style>{`body { overflow: hidden; }`}</style>
-        )}
+        </div> */}
+        {/* {open && window.innerWidth < 890 && (
+        <style>{`body { overflow: hidden; }`}</style> */}
         <RightNav open={open}/>
     </>
   )
